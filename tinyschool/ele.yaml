@@ -1,0 +1,118 @@
+Login_Page:
+  #  点击登录
+  CLICK : 'x,//*[@id="app"]/div[1]/div[1]/div/ul/li[4]/div'
+  #  账号
+  USERNAME : 'x,/html/body/div[2]/div[2]/div/div/div[2]/div[1]/div/div[1]/div[1]/input'
+  #  密码
+  PASSWORD : 'x,/html/body/div[2]/div[2]/div/div/div[2]/div[1]/div/div[1]/div[2]/input'
+  #验证码
+  YANZHENGMA : 'x,/html/body/div[2]/div[2]/div/div/div[2]/div[1]/div/div[1]/div[3]/div[1]/input'
+  #  确认登录
+  DENGLU : 'x,/html/body/div[2]/div[2]/div/div/div[2]/div[1]/div/div[1]/button'
+  #  选择角色
+  JUESE : 'x,/html/body/div[3]/div[2]/div/div/div[2]/div/div/div/div[2]'
+
+  SHOWWAIT : '全部应用'
+  #  断言
+  DUANYAN : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div/div[1]/div/div[3]/p[1]'
+#发通知
+TongZhi_Page:
+  #  点击通知
+  DIANTONG : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div/div[2]/div/span[1]/a'
+  #点击发通知
+  FATING : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/button'
+  #  点击发送对象
+  DUIXIANG : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[2]/div[1]/button'
+  #  点击选择教师
+  JIAOSHI : 'x,/html/body/div[4]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/dl[1]/dt/div[2]'
+  #  点击选择具体的教师
+  JAIOSHI1 : 'x,/html/body/div[4]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/dl[1]/dd[2]/div/span'
+  #  选择教师并确定
+  JIAOSHI2 : 'x,/html/body/div[4]/div[2]/div/div/div[2]/div[2]/button[1]'
+  #发送标题
+  BIAOTI : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[2]/div[2]/div/input'
+  #  发送内容
+  NEIRONG : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[2]/div[4]/div/textarea'
+  #  点击发布
+  FABU : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[2]/button'
+
+  # 已发通知
+  #  选择已发通知
+  YIFA : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div/div[1]/div'
+  YIFA1 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div/div[2]/ul[2]/li[1]'
+  #  选择第一个通知
+  YIFA2 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[2]/div[1]'
+  #  返回
+  FANHUI : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/span[1]'
+  #  删除
+  SHANCHU : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/span[3]'
+  #  确定删除
+  QUESHAN : 'c,ivu-btn ivu-btn-primary'
+  #  'x,/html/body/div[3]/div[2]/div/div/div[2]/div/button[1]/span'
+
+  #  已收通知
+  #  选择已收通知
+  YISHOU : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div/div[1]/div'
+  YISHOU1 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div/div[2]/ul[2]/li[2]'
+  #  选择第一个通知
+  YISHOU2 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[2]/div[1]'
+  #返回
+  FANHUI1 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/span[1]'
+  #  通知断言
+  TONGZHIDUANYAN : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/button/span/a'
+
+#通讯录
+TongXunLu_Page:
+  #点击通讯录
+  DONGXUNLU : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div/div[2]/div/span[4]'
+  #  搜索学生
+  SOUSUO : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[1]/div/div[2]/div[1]/input'
+  #  点击搜索
+  DIANSOUSUO : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[1]/div/div[2]/div[1]/span'
+  #学生姓名
+  STUDENTNAME : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div[2]/table/tbody/tr/td[4]'
+
+#新增学生教师
+AddStudent_Page:
+  #点击通讯录
+  DONGXUNLU1: 'x,//*[@id="app"]/div[1]/div[2]/div/div/div/div[2]/div/span[4]'
+  #  点击新增人员
+  ADDREN : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[1]/span'
+  #  新增学生
+  ADDSTUDENT : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[1]/span/ul/li[1]/a'
+  #  学生所在班级
+  BANJI : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div/select'
+  #  选择具体班级
+  BANJI1 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div/select/option[9]'
+  #  学生姓名
+  STUDENTNAME : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/input'
+  #  学生身份证号
+  STUDENTHAO : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[3]/div/input'
+  #  学生联系电话
+  STUDENTDIAN : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[4]/div/input'
+  #  新增家长
+  #  家长姓名
+  JIANAME : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div[1]/div/input'
+  #  联系电话
+  DIANHUA : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div[2]/div/input'
+  #  身份证号
+  JIAHAO : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div[3]/div/input'
+  #  亲属关系
+  GUANXI : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div[4]/div/select'
+  #  具体的亲属关系
+  GUANXI1 : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[5]/div[4]/div/select/option[2]'
+  #  保存
+  STUDENTBAOCEN : 'x,//*[@id="app"]/div[1]/div[2]/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]/div[6]/a[2]'
+
+
+
+
+
+
+
+
+
+
+
+
+
